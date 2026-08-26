@@ -1,0 +1,14 @@
+/* Simple professional styles */
+:root{
+  --primary:#0d6efd; /* bootstrap blue */
+  --muted:#6c757d;
+}
+body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;}
+.hero{background:linear-gradient(180deg, #f8fafc, #fff);}
+.profile-photo img{object-fit:cover}
+.container h1, .container h2, .container h3{color:#0b5ed7}
+.card{box-shadow:0 1px 6px rgba(16,24,40,0.06)}
+footer{border-top:1px solid #e9ecef}
+@media (max-width:767px){
+  .profile-photo img{width:120px;height:120px}
+}
